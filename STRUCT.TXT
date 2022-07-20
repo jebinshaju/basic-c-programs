@@ -1,0 +1,36 @@
+********************************************************
+Name    : Jebin Shaju
+Class   : CSE B
+Semester: s2
+Roll No : 33
+********************************************************
+
+PROGRAM: PROGRAM TO FIND SUM OF TWO DISTANCE USING STRUCTURE
+
+
+#include<stdio.h>
+
+struct distance
+{
+	int dis;
+}d1,d2;
+
+void main()
+{
+	int sum;
+	printf("Enter the first distance: ");
+	scanf("%d",&d1.dis);
+	
+	printf("Enter the second distance: ");
+	scanf("%d",&d2.dis);
+	
+	sum=d1.dis + d2.dis;
+	printf("The sum of the distances is: %d",sum);
+}
+
+
+OUTPUT
+
+Enter the first distance: 12
+Enter the second distance: 7
+The sum of the distances is: 19

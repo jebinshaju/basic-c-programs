@@ -46,7 +46,7 @@ int tupleadd(int tup1[20][20],int tup2[20][20],int sumtup[20][20])
 {
     int r1=tup1[0][0],r2=tup2[0][0],c1=tup1[0][1],c2=tup2[0][1],i,j,m=1,n=1,k=1;
     
-    if(r1 == r2 || c1 == c2)
+    if(r1 == r2 && c1 == c2)
     {
         sumtup[0][0]=r1;
         sumtup[0][1]=c1;
